@@ -6,10 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon server.js",
-    "run:migrate":"npx sequelize-cli db:migrate",
-    "undo:migrate":"npx sequelize-cli db:migrate:undo",
-    "run:seed":"npx sequelize-cli db:seed:all",
-    "undo:seed":"npx sequelize-cli db:seed:undo"
+    "run:migrate": "npx sequelize-cli db:migrate",
+    "undo:migrate": "npx sequelize-cli db:migrate:undo",
+    "run:seed": "npx sequelize-cli db:seed:all",
+    "undo:seed": "npx sequelize-cli db:seed:undo"
   },
   "keywords": [],
   "author": "",
